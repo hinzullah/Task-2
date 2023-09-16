@@ -5,7 +5,7 @@ import "../moviedetails/Moviedetailspage.css";
 import { AiFillStar } from "react-icons/ai";
 import { GiTicket } from "react-icons/gi";
 import { LuSlidersHorizontal } from "react-icons/lu";
-import best from "../../assets/Rectangle 37.png";
+import play from "../../assets/Play.png";
 
 const MoviesDetailsPage = () => {
   const IMAGE_PATH = "https://image.tmdb.org/t/p/w1280";
@@ -47,6 +47,9 @@ const MoviesDetailsPage = () => {
       <div className="backdrop">
         <div className="img-container">
           <img src={`${IMAGE_PATH}${details.backdrop_path}`} alt="backdrop" />
+        </div>
+        <div className="display">
+          <img src={play} alt="play button" />
         </div>
         <div className="text">
           <div className="top">

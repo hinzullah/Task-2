@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
 import logo from "../../assets/tv.png";
 import tomatoes from "../../assets/tomatoes.png";
+import { BsTwitter, BsYoutube } from "react-icons/bs";
+import { FiInstagram } from "react-icons/fi";
 import {
   AiFillPlayCircle,
   AiOutlineSearch,
   AiOutlineMenu,
+  AiFillFacebook,
 } from "react-icons/ai";
 import axios from "axios";
 import MovieCard from "../cards/MovieCard";
@@ -13,7 +16,7 @@ import imdb from "../../assets/imdb.png";
 
 const Homepage = () => {
   const API_URL = "https://api.themoviedb.org/3";
-  const IMAGE_PATH = "https://image.tmdb.org/t/p/w1280";
+  const IMAGE_PATH = "https://image.tmdb.org/t/p/original";
   const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState("");
   const [searchKey, setSearchkey] = useState("");
@@ -110,6 +113,22 @@ const Homepage = () => {
         <p>See More</p>
       </div>
       <div className="container">{renderMovies()}</div>
+      <div className="home-footer">
+        <div className="social">
+          <AiFillFacebook />
+          <FiInstagram />
+          <BsTwitter />
+          <BsYoutube />
+        </div>
+        <div className="info">
+          <h6>Condition of use</h6>
+          <h6>Privacy and Policy</h6>
+          <h6>Press Room</h6>
+        </div>
+        <div className="trademark">
+          <h6>&copy; 2023 MovieBox By Oduola Kamol Alao</h6>
+        </div>
+      </div>
     </div>
   );
 };

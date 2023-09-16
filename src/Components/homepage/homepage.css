@@ -125,3 +125,23 @@ button span{
     margin-top: 6px;
 
 }
+.home-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 3rem 0;
+}
+.social{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 16px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
