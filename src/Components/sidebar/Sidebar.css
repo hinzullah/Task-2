@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 15px 0;
+    width: 15%;
+    border: 1px solid gray;
+    border-bottom: none;
+    border-top-right-radius: 60px;
+    height: 100vh;
+    overflow-y: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+.sidebar .logo{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+    gap: 15px;
+}
+ul li{
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    width: 180px;
+    height: 38px;
+}
+
+ul li:hover{
+    color:rgba(190, 18, 60, 1);
+    background-color:rgb(205, 180, 186) ;
+    text-align: center;
+    border-right: 2px solid rgba(190, 18, 60, 1) ;
+}
+ul li :active{
+    color:rgba(190, 18, 60, 1);
+    background-color:rgb(205, 180, 186) ; 
+}
+.play{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 160px;
+    gap: 10px;
+    padding:10px 10px 5px 10px;
+    border: 1px solid gray ;
+    border-radius: 10px;
+    margin-left: 3px;
+    background-color:rgb(205, 180, 186, 0.3) ;
+}
+.play p{
+    font-size: 14px;
+}
+.play a{
+    padding: 3px;
+    background-color: rgba(190, 18, 60, 1);
+    height: 22px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.logout{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

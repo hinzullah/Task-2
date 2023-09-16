@@ -1,0 +1,127 @@
+.homepage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DM Sans;
+    
+}
+.banner{
+    color: #fff;
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.logo img{
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.logo h3{
+    margin-top: 10px;
+}
+.searchbar{
+    position: relative;
+    display: inline-block;
+}
+.searchbar input{
+    width: 22rem;
+    background: transparent;
+    border: 2px solid gray;
+    background-color: transparent;
+    height: 28px;
+    color: #fff;
+}
+.searchbar span{
+    position: absolute;
+    top: 35%;
+    right: 8px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.sign-in{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: 300;
+}
+.sign-in span{
+    background-color: rgba(190, 18, 60, 1);
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sign-in h5{
+    margin-top:8px;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    width: 404px;
+    margin-top: 20px;
+    padding: 2rem 7.8rem;
+}
+.banner-content h2{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0em;
+    margin: 0;
+}
+ .rating{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 12px;
+}
+.rating p{
+    display: flex;
+    gap: 5px;
+}
+
+.banner-content button{
+    border: 1px solid rgba(190, 18, 60, 1);
+    outline: 0;background-color: rgba(190, 18, 60, 1);
+    outline: 0;
+    color: white;
+    padding: 6px 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button span{
+    margin: 0 5px;
+}
+.movie-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 7.8rem;
+}
+.movie-head h2{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+}
+.movie-head p{
+    width:  87px;
+    height:  24px;
+    gap: 8px;
+    color:red;
+    margin-top: 6px;
+
+}
